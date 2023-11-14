@@ -26,8 +26,8 @@ To Clone the repository:
 - Press the "Pause Music" button to pause the currently playing music.
   
 ## Folder Structure
-songs/: Contains music folders corresponding to different emotions.
-images/: Placeholder for any image assets.
+- songs/: Contains music folders corresponding to different emotions.
+- images/: Placeholder for any image assets.
 
 ## Contributing
 Feel free to contribute by opening issues or pull requests.
