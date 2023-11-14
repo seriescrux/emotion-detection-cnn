@@ -2,4 +2,4 @@ streamlit>=1.15.0
 tensorflow==2.5.0
 opencv-python==4.5.3.56
 pygame==2.0.1
-numpy==1.21.0
+numpy~=1.19.2
