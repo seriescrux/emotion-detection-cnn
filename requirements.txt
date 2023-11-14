@@ -3,4 +3,4 @@ tensorflow==2.5.0
 opencv-python==4.5.3.56
 pygame==2.0.1
 numpy==1.21.0
-typing-extensions==3.7.4.3
+typing-extensions>=3.10.0.0
