@@ -1,5 +1,5 @@
-pip install streamlit
-pip install tensorflow
-pip install opencv-python
-pip install pygame
-pip install numpy
+streamlit==1.14.0
+tensorflow==2.5.0
+opencv-python==4.5.3.56
+pygame==2.0.1
+numpy==1.21.0
