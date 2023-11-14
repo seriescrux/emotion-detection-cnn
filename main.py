@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 import os
 import pygame
+from typing import List, Dict, Any, Tuple
 
 # Initialize Streamlit session state
 if 'detect_emotion_flag' not in st.session_state:
