@@ -1,5 +1,5 @@
-streamlit
-tensorflow
-opencv-python
-pygame
-numpy
+opencv-python==4.5.3.56
+tensorflow==2.6.0
+pygame==2.1.2
+streamlit==1.8.0
+numpy==1.21.2
