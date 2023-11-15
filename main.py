@@ -16,21 +16,21 @@ st.title('Emotion Detection')
 pygame.mixer.init()
 
 # Load the Haarcascades for face detection and the emotion detection model
-face_classifier = cv2.CascadeClassifier(r'C:\Users\KIIT\Desktop\proj\haarcascade_frontalface_default.xml')
-classifier = load_model(r'C:\Users\KIIT\Desktop\proj\model.h5')
+face_classifier = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
+classifier = load_model('./model.h5')
 
 # Emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Emotion music folders
 emotion_music_folders = {
-    'Angry': r'C:\Users\KIIT\Desktop\proj\songs\angry',
-    'Happy': r'C:\Users\KIIT\Desktop\proj\songs\happy',
-    'Sad': r'C:\Users\KIIT\Desktop\proj\songs\sad',
-    'Disgust': r'C:\Users\KIIT\Desktop\proj\songs\disgust',
-    'Fear': r'C:\Users\KIIT\Desktop\proj\songs\fear',
-    'Neutral': r'C:\Users\KIIT\Desktop\proj\songs\neutral',
-    'Surprise': r'C:\Users\KIIT\Desktop\proj\songs\surprise',
+    'Angry': './songs/angry',
+    'Happy': './songs/happy',
+    'Sad': './songs/sad',
+    'Disgust': './songs/disgust',
+    'Fear': './songs/fear',
+    'Neutral': './songs/neutral',
+    'Surprise': './songs/surprise',
 }
 
 # Function to play music based on emotion
